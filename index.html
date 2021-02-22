@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Biglietto Treno</title>
+</head>
+<body>
+    <main>
+        <div class="wrapper">
+            <div class="row_1_title">
+                <h1>CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
+            </div> 
+            <section class="big_row_1">                       
+                <section class="row_1">
+                    <div class="nome_cognome">
+                        <h3>Nome Cognome</h3>
+                        <input type="text" placeholder="Scrivi il tuo nome">
+                    </div>
+                    <div class="chilometri">
+                        <h3>Km da percorrere</h3>
+                        <input type="number" placeholder="Km da percorrere">                   
+                    </div>
+                    <div class="eta">
+                        <h3>Fascia d'età</h3>
+                        <select name="eta" id="eta">
+                            <option value="Minorenne">Minorenne</option>
+                            <option value="Maggiorenne">Maggiorenne</option>
+                            <option value="Over-65">Over-65</option>
+                        </select>
+                    </div>
+                </section> 
+                <div class="row_1_buttons">
+                    <button>Genera</button>
+                    <button>Annulla</button>
+                </div>                        
+            </section>
+            <section class="big_row_2">
+                <div class="row_2_title">
+                    <h1>IL TUO BIGLIETTO</h1>
+                </div>
+                <section class="row_2">
+                    <div class="table_title">
+                        <h2>Dettaglio Passeggeri</h2>
+                    </div>
+                    <div class="passenger_name">
+                        <h2>NOME PASSEGERO</h2>
+                        <h2>Pippo</h2>
+                    </div>
+                    <div class="ticket_table">
+                        <table>
+                            <tr>
+                              <th>Offerta</th>
+                              <th>Carrozza</th> 
+                              <th>Codice Cp</th>
+                              <th>Costo Biglietto</th>
+                            </tr>
+                            <tr>
+                              <td>Jill</td>
+                              <td>Smith</td>
+                              <td>50</td>
+                              <td>10</td>
+                            </tr>
+                    </div>
+                </section>
+            </section>
+        </div> 
+    </main>
+
+
+
+
+
+
+    
+    <script src="main.js"></script>
+</body>
+</html>
