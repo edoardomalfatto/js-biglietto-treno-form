@@ -17,24 +17,24 @@
                 <section class="row_1">
                     <div class="nome_cognome">
                         <h3>Nome Cognome</h3>
-                        <input type="text" placeholder="Scrivi il tuo nome">
+                        <input type="text" id="nome" placeholder="Scrivi il tuo nome">
                     </div>
                     <div class="chilometri">
                         <h3>Km da percorrere</h3>
-                        <input type="number" placeholder="Km da percorrere">                   
+                        <input type="number" id="km" placeholder="Km da percorrere">                   
                     </div>
                     <div class="eta">
                         <h3>Fascia d'età</h3>
                         <select name="eta" id="eta">
                             <option value="Minorenne">Minorenne</option>
                             <option value="Maggiorenne">Maggiorenne</option>
-                            <option value="Over-65">Over-65</option>
+                            <option value="Over65">Over-65</option>
                         </select>
                     </div>
                 </section> 
                 <div class="row_1_buttons">
-                    <button>Genera</button>
-                    <button>Annulla</button>
+                    <button id="genera">Genera</button>
+                    <button id="annulla">Annulla</button>
                 </div>                        
             </section>
             <section class="big_row_2">
@@ -47,7 +47,7 @@
                     </div>
                     <div class="passenger_name">
                         <h2>NOME PASSEGERO</h2>
-                        <h2>Pippo</h2>
+                        <h2 id="nome_row"></h2>
                     </div>
                     <div class="ticket_table">
                         <table>
@@ -58,10 +58,10 @@
                               <th>Costo Biglietto</th>
                             </tr>
                             <tr>
-                              <td>Jill</td>
+                              <td id="offerta" ></td>
                               <td>Smith</td>
                               <td>50</td>
-                              <td>10</td>
+                              <td id="prezzo">10</td>
                             </tr>
                     </div>
                 </section>
@@ -75,6 +75,6 @@
 
 
     
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
